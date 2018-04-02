@@ -1,0 +1,22 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build":"parcel build src/index.html --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.7.0",
+    "@vue/component-compiler-utils": "^1.0.0",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
